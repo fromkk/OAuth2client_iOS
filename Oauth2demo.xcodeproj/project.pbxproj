@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1346E91BF5C80C00688FF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1346E81BF5C80C00688FF4 /* main.m */; };
+		4F1346EC1BF5C80C00688FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1346EB1BF5C80C00688FF4 /* AppDelegate.m */; };
+		4F1346EF1BF5C80C00688FF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1346EE1BF5C80C00688FF4 /* ViewController.m */; };
+		4F1346F21BF5C80C00688FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1346F01BF5C80C00688FF4 /* Main.storyboard */; };
+		4F1346F51BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F1346F31BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld */; };
+		4F1346F71BF5C80C00688FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1346F61BF5C80C00688FF4 /* Assets.xcassets */; };
+		4F1346FA1BF5C80C00688FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */; };
+		4F1347051BF5C80D00688FF4 /* Oauth2demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1347041BF5C80D00688FF4 /* Oauth2demoTests.m */; };
+		4F1347101BF5C80D00688FF4 /* Oauth2demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1347011BF5C80D00688FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1346DC1BF5C80C00688FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1346E31BF5C80C00688FF4;
+			remoteInfo = Oauth2demo;
+		};
+		4F13470C1BF5C80D00688FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1346DC1BF5C80C00688FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1346E31BF5C80C00688FF4;
+			remoteInfo = Oauth2demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1346E41BF5C80C00688FF4 /* Oauth2demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oauth2demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1346E81BF5C80C00688FF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F1346EA1BF5C80C00688FF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F1346EB1BF5C80C00688FF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F1346ED1BF5C80C00688FF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F1346EE1BF5C80C00688FF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F1346F11BF5C80C00688FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1346F41BF5C80C00688FF4 /* Oauth2demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oauth2demo.xcdatamodel; sourceTree = "<group>"; };
+		4F1346F61BF5C80C00688FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1346F91BF5C80C00688FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1346FB1BF5C80C00688FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1347001BF5C80D00688FF4 /* Oauth2demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oauth2demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1347041BF5C80D00688FF4 /* Oauth2demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oauth2demoTests.m; sourceTree = "<group>"; };
+		4F1347061BF5C80D00688FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F13470B1BF5C80D00688FF4 /* Oauth2demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oauth2demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oauth2demoUITests.m; sourceTree = "<group>"; };
+		4F1347111BF5C80D00688FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1346E11BF5C80C00688FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1346FD1BF5C80D00688FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1347081BF5C80D00688FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1346DB1BF5C80C00688FF4 = {
+			isa = PBXGroup;
+			children = (
+				4F1346E61BF5C80C00688FF4 /* Oauth2demo */,
+				4F1347031BF5C80D00688FF4 /* Oauth2demoTests */,
+				4F13470E1BF5C80D00688FF4 /* Oauth2demoUITests */,
+				4F1346E51BF5C80C00688FF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1346E51BF5C80C00688FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1346E41BF5C80C00688FF4 /* Oauth2demo.app */,
+				4F1347001BF5C80D00688FF4 /* Oauth2demoTests.xctest */,
+				4F13470B1BF5C80D00688FF4 /* Oauth2demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F1346E61BF5C80C00688FF4 /* Oauth2demo */ = {
+			isa = PBXGroup;
+			children = (
+				4F1346EA1BF5C80C00688FF4 /* AppDelegate.h */,
+				4F1346EB1BF5C80C00688FF4 /* AppDelegate.m */,
+				4F1346ED1BF5C80C00688FF4 /* ViewController.h */,
+				4F1346EE1BF5C80C00688FF4 /* ViewController.m */,
+				4F1346F01BF5C80C00688FF4 /* Main.storyboard */,
+				4F1346F61BF5C80C00688FF4 /* Assets.xcassets */,
+				4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */,
+				4F1346FB1BF5C80C00688FF4 /* Info.plist */,
+				4F1346F31BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld */,
+				4F1346E71BF5C80C00688FF4 /* Supporting Files */,
+			);
+			path = Oauth2demo;
+			sourceTree = "<group>";
+		};
+		4F1346E71BF5C80C00688FF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1346E81BF5C80C00688FF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1347031BF5C80D00688FF4 /* Oauth2demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1347041BF5C80D00688FF4 /* Oauth2demoTests.m */,
+				4F1347061BF5C80D00688FF4 /* Info.plist */,
+			);
+			path = Oauth2demoTests;
+			sourceTree = "<group>";
+		};
+		4F13470E1BF5C80D00688FF4 /* Oauth2demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */,
+				4F1347111BF5C80D00688FF4 /* Info.plist */,
+			);
+			path = Oauth2demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F1346E31BF5C80C00688FF4 /* Oauth2demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1347141BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demo" */;
+			buildPhases = (
+				4F1346E01BF5C80C00688FF4 /* Sources */,
+				4F1346E11BF5C80C00688FF4 /* Frameworks */,
+				4F1346E21BF5C80C00688FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oauth2demo;
+			productName = Oauth2demo;
+			productReference = 4F1346E41BF5C80C00688FF4 /* Oauth2demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1346FF1BF5C80D00688FF4 /* Oauth2demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1347171BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demoTests" */;
+			buildPhases = (
+				4F1346FC1BF5C80D00688FF4 /* Sources */,
+				4F1346FD1BF5C80D00688FF4 /* Frameworks */,
+				4F1346FE1BF5C80D00688FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1347021BF5C80D00688FF4 /* PBXTargetDependency */,
+			);
+			name = Oauth2demoTests;
+			productName = Oauth2demoTests;
+			productReference = 4F1347001BF5C80D00688FF4 /* Oauth2demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F13470A1BF5C80D00688FF4 /* Oauth2demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F13471A1BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demoUITests" */;
+			buildPhases = (
+				4F1347071BF5C80D00688FF4 /* Sources */,
+				4F1347081BF5C80D00688FF4 /* Frameworks */,
+				4F1347091BF5C80D00688FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F13470D1BF5C80D00688FF4 /* PBXTargetDependency */,
+			);
+			name = Oauth2demoUITests;
+			productName = Oauth2demoUITests;
+			productReference = 4F13470B1BF5C80D00688FF4 /* Oauth2demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1346DC1BF5C80C00688FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Timers Inc.";
+				TargetAttributes = {
+					4F1346E31BF5C80C00688FF4 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4F1346FF1BF5C80D00688FF4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4F1346E31BF5C80C00688FF4;
+					};
+					4F13470A1BF5C80D00688FF4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4F1346E31BF5C80C00688FF4;
+					};
+				};
+			};
+			buildConfigurationList = 4F1346DF1BF5C80C00688FF4 /* Build configuration list for PBXProject "Oauth2demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1346DB1BF5C80C00688FF4;
+			productRefGroup = 4F1346E51BF5C80C00688FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1346E31BF5C80C00688FF4 /* Oauth2demo */,
+				4F1346FF1BF5C80D00688FF4 /* Oauth2demoTests */,
+				4F13470A1BF5C80D00688FF4 /* Oauth2demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1346E21BF5C80C00688FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1346FA1BF5C80C00688FF4 /* LaunchScreen.storyboard in Resources */,
+				4F1346F71BF5C80C00688FF4 /* Assets.xcassets in Resources */,
+				4F1346F21BF5C80C00688FF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1346FE1BF5C80D00688FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1347091BF5C80D00688FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1346E01BF5C80C00688FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1346EF1BF5C80C00688FF4 /* ViewController.m in Sources */,
+				4F1346EC1BF5C80C00688FF4 /* AppDelegate.m in Sources */,
+				4F1346E91BF5C80C00688FF4 /* main.m in Sources */,
+				4F1346F51BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1346FC1BF5C80D00688FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1347051BF5C80D00688FF4 /* Oauth2demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1347071BF5C80D00688FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1347101BF5C80D00688FF4 /* Oauth2demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F1347021BF5C80D00688FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1346E31BF5C80C00688FF4 /* Oauth2demo */;
+			targetProxy = 4F1347011BF5C80D00688FF4 /* PBXContainerItemProxy */;
+		};
+		4F13470D1BF5C80D00688FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1346E31BF5C80C00688FF4 /* Oauth2demo */;
+			targetProxy = 4F13470C1BF5C80D00688FF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1346F01BF5C80C00688FF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1346F11BF5C80C00688FF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1346F91BF5C80C00688FF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F1347121BF5C80D00688FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F1347131BF5C80D00688FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F1347151BF5C80D00688FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oauth2demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Oauth2demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1347161BF5C80D00688FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oauth2demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Oauth2demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F1347181BF5C80D00688FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Oauth2demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Oauth2demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oauth2demo.app/Oauth2demo";
+			};
+			name = Debug;
+		};
+		4F1347191BF5C80D00688FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Oauth2demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Oauth2demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oauth2demo.app/Oauth2demo";
+			};
+			name = Release;
+		};
+		4F13471B1BF5C80D00688FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Oauth2demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Oauth2demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Oauth2demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F13471C1BF5C80D00688FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Oauth2demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Oauth2demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Oauth2demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1346DF1BF5C80C00688FF4 /* Build configuration list for PBXProject "Oauth2demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1347121BF5C80D00688FF4 /* Debug */,
+				4F1347131BF5C80D00688FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1347141BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1347151BF5C80D00688FF4 /* Debug */,
+				4F1347161BF5C80D00688FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1347171BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1347181BF5C80D00688FF4 /* Debug */,
+				4F1347191BF5C80D00688FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F13471A1BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F13471B1BF5C80D00688FF4 /* Debug */,
+				4F13471C1BF5C80D00688FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F1346F31BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F1346F41BF5C80C00688FF4 /* Oauth2demo.xcdatamodel */,
+			);
+			currentVersion = 4F1346F41BF5C80C00688FF4 /* Oauth2demo.xcdatamodel */;
+			path = Oauth2demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F1346DC1BF5C80C00688FF4 /* Project object */;
+}
