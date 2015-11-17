@@ -1,0 +1,21 @@
+/* 
+  TMValidatorError.strings
+  TMValidator
+
+  Created by Kazuya Ueoka on 2015/11/17.
+  Copyright © 2015年 Timers Inc. All rights reserved.
+*/
+"tm.validator.isEmpty" = "%@ is need empty.";
+"tm.validator.required" = "%@ is required.";
+"tm.validator.exactLength" = "%@ is not exact length %@.";
+"tm.validator.minLength" = "%@ is need %@ length.";
+"tm.validator.maxLength" = "%@ is need under %@ length.";
+"tm.validator.isNumeric" = "%@ is not numeric.";
+"tm.validator.isAlphabet" = "%@ is not alphabet.";
+"tm.validator.isAlnum" = "%@ is not alphabet and numeric.";
+"tm.validator.numericMin" = "%@ is uner %@.";
+"tm.validator.numericMax" = "%@ is over %@.";
+"tm.validator.numericBetween" = "%@ is not between %@ and %@.";
+"tm.validator.matchValue" = "%@ is not match with %@.";
+"tm.validator.matchPattern" = "%@ is not match with pattern %@.";
+"tm.validator.email" = "%@ is not valid email address.";

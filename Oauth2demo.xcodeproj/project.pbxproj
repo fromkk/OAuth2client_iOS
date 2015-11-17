@@ -16,27 +16,27 @@
 		4F1346FA1BF5C80C00688FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */; };
 		4F1347051BF5C80D00688FF4 /* Oauth2demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1347041BF5C80D00688FF4 /* Oauth2demoTests.m */; };
 		4F1347101BF5C80D00688FF4 /* Oauth2demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */; };
+		4F26391E1BFB36C600BCB7F5 /* TMValidatorError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F2638F41BFB36C600BCB7F5 /* TMValidatorError.strings */; };
+		4F26391F1BFB36C600BCB7F5 /* TMValidateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2638F81BFB36C600BCB7F5 /* TMValidateTextField.m */; };
+		4F2639201BFB36C600BCB7F5 /* TMValidateTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2638FA1BFB36C600BCB7F5 /* TMValidateTextView.m */; };
+		4F2639211BFB36C600BCB7F5 /* TMValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2638FC1BFB36C600BCB7F5 /* TMValidator.m */; };
+		4F2639221BFB36C600BCB7F5 /* TMValidatorField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2638FF1BFB36C600BCB7F5 /* TMValidatorField.m */; };
+		4F2639231BFB36C600BCB7F5 /* TMValidatorRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639011BFB36C600BCB7F5 /* TMValidatorRule.m */; };
+		4F2639241BFB36C600BCB7F5 /* TMValidatorRuleEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639031BFB36C600BCB7F5 /* TMValidatorRuleEmail.m */; };
+		4F2639251BFB36C600BCB7F5 /* TMValidatorRuleExactLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639051BFB36C600BCB7F5 /* TMValidatorRuleExactLength.m */; };
+		4F2639261BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639071BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.m */; };
+		4F2639271BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639091BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.m */; };
+		4F2639281BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F26390B1BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.m */; };
+		4F2639291BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F26390D1BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.m */; };
+		4F26392A1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F26390F1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.m */; };
+		4F26392B1BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639111BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.m */; };
+		4F26392C1BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639131BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.m */; };
+		4F26392D1BFB36C600BCB7F5 /* TMValidatorRuleMinLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639151BFB36C600BCB7F5 /* TMValidatorRuleMinLength.m */; };
+		4F26392E1BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639171BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.m */; };
+		4F26392F1BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2639191BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.m */; };
+		4F2639301BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F26391B1BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.m */; };
+		4F2639311BFB36C600BCB7F5 /* TMValidatorRuleRequired.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F26391D1BFB36C600BCB7F5 /* TMValidatorRuleRequired.m */; };
 		4F83B1C11BFB032400784298 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1C01BFB032400784298 /* HomeViewController.m */; };
-		4F83B1F31BFB13AE00784298 /* TMValidatorError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F83B1CA1BFB13AE00784298 /* TMValidatorError.strings */; };
-		4F83B1F41BFB13AE00784298 /* TMValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1CD1BFB13AE00784298 /* TMValidator.m */; };
-		4F83B1F51BFB13AE00784298 /* TMValidatorField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1CF1BFB13AE00784298 /* TMValidatorField.m */; };
-		4F83B1F61BFB13AE00784298 /* TMValidatorRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D11BFB13AE00784298 /* TMValidatorRule.m */; };
-		4F83B1F71BFB13AE00784298 /* TMValidatorRuleIsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D31BFB13AE00784298 /* TMValidatorRuleIsEmpty.m */; };
-		4F83B1F81BFB13AE00784298 /* TMValidatorRuleRequired.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D51BFB13AE00784298 /* TMValidatorRuleRequired.m */; };
-		4F83B1F91BFB13AE00784298 /* TMValidatorRuleMinLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D71BFB13AE00784298 /* TMValidatorRuleMinLength.m */; };
-		4F83B1FA1BFB13AE00784298 /* TMValidatorRuleMaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D91BFB13AE00784298 /* TMValidatorRuleMaxLength.m */; };
-		4F83B1FB1BFB13AE00784298 /* TMValidatorRuleExactLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1DB1BFB13AE00784298 /* TMValidatorRuleExactLength.m */; };
-		4F83B1FC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1DD1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m */; };
-		4F83B1FD1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1DF1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m */; };
-		4F83B1FE1BFB13AE00784298 /* TMValidatorRuleIsAlnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E11BFB13AE00784298 /* TMValidatorRuleIsAlnum.m */; };
-		4F83B1FF1BFB13AE00784298 /* TMValidatorRuleMatchPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E31BFB13AE00784298 /* TMValidatorRuleMatchPattern.m */; };
-		4F83B2001BFB13AE00784298 /* TMValidatorRuleMatchValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E51BFB13AE00784298 /* TMValidatorRuleMatchValue.m */; };
-		4F83B2011BFB13AE00784298 /* TMValidatorRuleNumericMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E71BFB13AE00784298 /* TMValidatorRuleNumericMin.m */; };
-		4F83B2021BFB13AE00784298 /* TMValidatorRuleNumericMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E91BFB13AE00784298 /* TMValidatorRuleNumericMax.m */; };
-		4F83B2031BFB13AE00784298 /* TMValidatorRuleNumericBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1EB1BFB13AE00784298 /* TMValidatorRuleNumericBetween.m */; };
-		4F83B2041BFB13AE00784298 /* TMValidatorRuleEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1ED1BFB13AE00784298 /* TMValidatorRuleEmail.m */; };
-		4F83B2051BFB13AE00784298 /* TMValidateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1EF1BFB13AE00784298 /* TMValidateTextField.m */; };
-		4F83B2061BFB13AE00784298 /* TMValidateTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1F11BFB13AE00784298 /* TMValidateTextView.m */; };
 		4F83B2091BFB179800784298 /* UIAlertController+blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B2081BFB179800784298 /* UIAlertController+blocks.m */; };
 		6F1D347670D6A5E83CB3C1F6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E25900321CDE31EBE92E24 /* Pods.framework */; };
 /* End PBXBuildFile section */
@@ -76,49 +76,49 @@
 		4F13470B1BF5C80D00688FF4 /* Oauth2demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oauth2demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oauth2demoUITests.m; sourceTree = "<group>"; };
 		4F1347111BF5C80D00688FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2638F51BFB36C600BCB7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TMValidatorError.strings; sourceTree = "<group>"; };
+		4F2638F61BFB36C600BCB7F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TMValidatorError.strings; sourceTree = "<group>"; };
+		4F2638F71BFB36C600BCB7F5 /* TMValidateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidateTextField.h; sourceTree = "<group>"; };
+		4F2638F81BFB36C600BCB7F5 /* TMValidateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidateTextField.m; sourceTree = "<group>"; };
+		4F2638F91BFB36C600BCB7F5 /* TMValidateTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidateTextView.h; sourceTree = "<group>"; };
+		4F2638FA1BFB36C600BCB7F5 /* TMValidateTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidateTextView.m; sourceTree = "<group>"; };
+		4F2638FB1BFB36C600BCB7F5 /* TMValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidator.h; sourceTree = "<group>"; };
+		4F2638FC1BFB36C600BCB7F5 /* TMValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidator.m; sourceTree = "<group>"; };
+		4F2638FD1BFB36C600BCB7F5 /* TMValidatorCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorCommon.h; sourceTree = "<group>"; };
+		4F2638FE1BFB36C600BCB7F5 /* TMValidatorField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorField.h; sourceTree = "<group>"; };
+		4F2638FF1BFB36C600BCB7F5 /* TMValidatorField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorField.m; sourceTree = "<group>"; };
+		4F2639001BFB36C600BCB7F5 /* TMValidatorRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRule.h; sourceTree = "<group>"; };
+		4F2639011BFB36C600BCB7F5 /* TMValidatorRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRule.m; sourceTree = "<group>"; };
+		4F2639021BFB36C600BCB7F5 /* TMValidatorRuleEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleEmail.h; sourceTree = "<group>"; };
+		4F2639031BFB36C600BCB7F5 /* TMValidatorRuleEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleEmail.m; sourceTree = "<group>"; };
+		4F2639041BFB36C600BCB7F5 /* TMValidatorRuleExactLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleExactLength.h; sourceTree = "<group>"; };
+		4F2639051BFB36C600BCB7F5 /* TMValidatorRuleExactLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleExactLength.m; sourceTree = "<group>"; };
+		4F2639061BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsAlnum.h; sourceTree = "<group>"; };
+		4F2639071BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsAlnum.m; sourceTree = "<group>"; };
+		4F2639081BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsAlphabet.h; sourceTree = "<group>"; };
+		4F2639091BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsAlphabet.m; sourceTree = "<group>"; };
+		4F26390A1BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsEmpty.h; sourceTree = "<group>"; };
+		4F26390B1BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsEmpty.m; sourceTree = "<group>"; };
+		4F26390C1BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsNumeric.h; sourceTree = "<group>"; };
+		4F26390D1BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsNumeric.m; sourceTree = "<group>"; };
+		4F26390E1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMatchPattern.h; sourceTree = "<group>"; };
+		4F26390F1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMatchPattern.m; sourceTree = "<group>"; };
+		4F2639101BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMatchValue.h; sourceTree = "<group>"; };
+		4F2639111BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMatchValue.m; sourceTree = "<group>"; };
+		4F2639121BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMaxLength.h; sourceTree = "<group>"; };
+		4F2639131BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMaxLength.m; sourceTree = "<group>"; };
+		4F2639141BFB36C600BCB7F5 /* TMValidatorRuleMinLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMinLength.h; sourceTree = "<group>"; };
+		4F2639151BFB36C600BCB7F5 /* TMValidatorRuleMinLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMinLength.m; sourceTree = "<group>"; };
+		4F2639161BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericBetween.h; sourceTree = "<group>"; };
+		4F2639171BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericBetween.m; sourceTree = "<group>"; };
+		4F2639181BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericMax.h; sourceTree = "<group>"; };
+		4F2639191BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericMax.m; sourceTree = "<group>"; };
+		4F26391A1BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericMin.h; sourceTree = "<group>"; };
+		4F26391B1BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericMin.m; sourceTree = "<group>"; };
+		4F26391C1BFB36C600BCB7F5 /* TMValidatorRuleRequired.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleRequired.h; sourceTree = "<group>"; };
+		4F26391D1BFB36C600BCB7F5 /* TMValidatorRuleRequired.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleRequired.m; sourceTree = "<group>"; };
 		4F83B1BF1BFB032400784298 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4F83B1C01BFB032400784298 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		4F83B1C81BFB13AE00784298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TMValidatorError.strings; sourceTree = "<group>"; };
-		4F83B1C91BFB13AE00784298 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TMValidatorError.strings; sourceTree = "<group>"; };
-		4F83B1CB1BFB13AE00784298 /* TMValidatorCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorCommon.h; sourceTree = "<group>"; };
-		4F83B1CC1BFB13AE00784298 /* TMValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidator.h; sourceTree = "<group>"; };
-		4F83B1CD1BFB13AE00784298 /* TMValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidator.m; sourceTree = "<group>"; };
-		4F83B1CE1BFB13AE00784298 /* TMValidatorField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorField.h; sourceTree = "<group>"; };
-		4F83B1CF1BFB13AE00784298 /* TMValidatorField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorField.m; sourceTree = "<group>"; };
-		4F83B1D01BFB13AE00784298 /* TMValidatorRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRule.h; sourceTree = "<group>"; };
-		4F83B1D11BFB13AE00784298 /* TMValidatorRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRule.m; sourceTree = "<group>"; };
-		4F83B1D21BFB13AE00784298 /* TMValidatorRuleIsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsEmpty.h; sourceTree = "<group>"; };
-		4F83B1D31BFB13AE00784298 /* TMValidatorRuleIsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsEmpty.m; sourceTree = "<group>"; };
-		4F83B1D41BFB13AE00784298 /* TMValidatorRuleRequired.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleRequired.h; sourceTree = "<group>"; };
-		4F83B1D51BFB13AE00784298 /* TMValidatorRuleRequired.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleRequired.m; sourceTree = "<group>"; };
-		4F83B1D61BFB13AE00784298 /* TMValidatorRuleMinLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMinLength.h; sourceTree = "<group>"; };
-		4F83B1D71BFB13AE00784298 /* TMValidatorRuleMinLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMinLength.m; sourceTree = "<group>"; };
-		4F83B1D81BFB13AE00784298 /* TMValidatorRuleMaxLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMaxLength.h; sourceTree = "<group>"; };
-		4F83B1D91BFB13AE00784298 /* TMValidatorRuleMaxLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMaxLength.m; sourceTree = "<group>"; };
-		4F83B1DA1BFB13AE00784298 /* TMValidatorRuleExactLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleExactLength.h; sourceTree = "<group>"; };
-		4F83B1DB1BFB13AE00784298 /* TMValidatorRuleExactLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleExactLength.m; sourceTree = "<group>"; };
-		4F83B1DC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsNumeric.h; sourceTree = "<group>"; };
-		4F83B1DD1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsNumeric.m; sourceTree = "<group>"; };
-		4F83B1DE1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsAlphabet.h; sourceTree = "<group>"; };
-		4F83B1DF1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsAlphabet.m; sourceTree = "<group>"; };
-		4F83B1E01BFB13AE00784298 /* TMValidatorRuleIsAlnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsAlnum.h; sourceTree = "<group>"; };
-		4F83B1E11BFB13AE00784298 /* TMValidatorRuleIsAlnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsAlnum.m; sourceTree = "<group>"; };
-		4F83B1E21BFB13AE00784298 /* TMValidatorRuleMatchPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMatchPattern.h; sourceTree = "<group>"; };
-		4F83B1E31BFB13AE00784298 /* TMValidatorRuleMatchPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMatchPattern.m; sourceTree = "<group>"; };
-		4F83B1E41BFB13AE00784298 /* TMValidatorRuleMatchValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMatchValue.h; sourceTree = "<group>"; };
-		4F83B1E51BFB13AE00784298 /* TMValidatorRuleMatchValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMatchValue.m; sourceTree = "<group>"; };
-		4F83B1E61BFB13AE00784298 /* TMValidatorRuleNumericMin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericMin.h; sourceTree = "<group>"; };
-		4F83B1E71BFB13AE00784298 /* TMValidatorRuleNumericMin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericMin.m; sourceTree = "<group>"; };
-		4F83B1E81BFB13AE00784298 /* TMValidatorRuleNumericMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericMax.h; sourceTree = "<group>"; };
-		4F83B1E91BFB13AE00784298 /* TMValidatorRuleNumericMax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericMax.m; sourceTree = "<group>"; };
-		4F83B1EA1BFB13AE00784298 /* TMValidatorRuleNumericBetween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericBetween.h; sourceTree = "<group>"; };
-		4F83B1EB1BFB13AE00784298 /* TMValidatorRuleNumericBetween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericBetween.m; sourceTree = "<group>"; };
-		4F83B1EC1BFB13AE00784298 /* TMValidatorRuleEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleEmail.h; sourceTree = "<group>"; };
-		4F83B1ED1BFB13AE00784298 /* TMValidatorRuleEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleEmail.m; sourceTree = "<group>"; };
-		4F83B1EE1BFB13AE00784298 /* TMValidateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidateTextField.h; sourceTree = "<group>"; };
-		4F83B1EF1BFB13AE00784298 /* TMValidateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidateTextField.m; sourceTree = "<group>"; };
-		4F83B1F01BFB13AE00784298 /* TMValidateTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidateTextView.h; sourceTree = "<group>"; };
-		4F83B1F11BFB13AE00784298 /* TMValidateTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidateTextView.m; sourceTree = "<group>"; };
 		4F83B2071BFB179800784298 /* UIAlertController+blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+blocks.h"; sourceTree = "<group>"; };
 		4F83B2081BFB179800784298 /* UIAlertController+blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+blocks.m"; sourceTree = "<group>"; };
 		4FA8A3BA1BF5C9B700133631 /* OAauth_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAauth_config.h; sourceTree = "<group>"; };
@@ -198,11 +198,11 @@
 				4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */,
 				4F1346FB1BF5C80C00688FF4 /* Info.plist */,
 				4F1346F31BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld */,
-				4F83B1F21BFB13AE00784298 /* TMValidator */,
 				4F1346E71BF5C80C00688FF4 /* Supporting Files */,
 				4FA8A3BA1BF5C9B700133631 /* OAauth_config.h */,
 				4F83B2071BFB179800784298 /* UIAlertController+blocks.h */,
 				4F83B2081BFB179800784298 /* UIAlertController+blocks.m */,
+				4F2638F31BFB36C600BCB7F5 /* TMValidator */,
 			);
 			path = Oauth2demo;
 			sourceTree = "<group>";
@@ -233,52 +233,51 @@
 			path = Oauth2demoUITests;
 			sourceTree = "<group>";
 		};
-		4F83B1F21BFB13AE00784298 /* TMValidator */ = {
+		4F2638F31BFB36C600BCB7F5 /* TMValidator */ = {
 			isa = PBXGroup;
 			children = (
-				4F83B1CA1BFB13AE00784298 /* TMValidatorError.strings */,
-				4F83B1CB1BFB13AE00784298 /* TMValidatorCommon.h */,
-				4F83B1CC1BFB13AE00784298 /* TMValidator.h */,
-				4F83B1CD1BFB13AE00784298 /* TMValidator.m */,
-				4F83B1CE1BFB13AE00784298 /* TMValidatorField.h */,
-				4F83B1CF1BFB13AE00784298 /* TMValidatorField.m */,
-				4F83B1D01BFB13AE00784298 /* TMValidatorRule.h */,
-				4F83B1D11BFB13AE00784298 /* TMValidatorRule.m */,
-				4F83B1D21BFB13AE00784298 /* TMValidatorRuleIsEmpty.h */,
-				4F83B1D31BFB13AE00784298 /* TMValidatorRuleIsEmpty.m */,
-				4F83B1D41BFB13AE00784298 /* TMValidatorRuleRequired.h */,
-				4F83B1D51BFB13AE00784298 /* TMValidatorRuleRequired.m */,
-				4F83B1D61BFB13AE00784298 /* TMValidatorRuleMinLength.h */,
-				4F83B1D71BFB13AE00784298 /* TMValidatorRuleMinLength.m */,
-				4F83B1D81BFB13AE00784298 /* TMValidatorRuleMaxLength.h */,
-				4F83B1D91BFB13AE00784298 /* TMValidatorRuleMaxLength.m */,
-				4F83B1DA1BFB13AE00784298 /* TMValidatorRuleExactLength.h */,
-				4F83B1DB1BFB13AE00784298 /* TMValidatorRuleExactLength.m */,
-				4F83B1DC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.h */,
-				4F83B1DD1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m */,
-				4F83B1DE1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.h */,
-				4F83B1DF1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m */,
-				4F83B1E01BFB13AE00784298 /* TMValidatorRuleIsAlnum.h */,
-				4F83B1E11BFB13AE00784298 /* TMValidatorRuleIsAlnum.m */,
-				4F83B1E21BFB13AE00784298 /* TMValidatorRuleMatchPattern.h */,
-				4F83B1E31BFB13AE00784298 /* TMValidatorRuleMatchPattern.m */,
-				4F83B1E41BFB13AE00784298 /* TMValidatorRuleMatchValue.h */,
-				4F83B1E51BFB13AE00784298 /* TMValidatorRuleMatchValue.m */,
-				4F83B1E61BFB13AE00784298 /* TMValidatorRuleNumericMin.h */,
-				4F83B1E71BFB13AE00784298 /* TMValidatorRuleNumericMin.m */,
-				4F83B1E81BFB13AE00784298 /* TMValidatorRuleNumericMax.h */,
-				4F83B1E91BFB13AE00784298 /* TMValidatorRuleNumericMax.m */,
-				4F83B1EA1BFB13AE00784298 /* TMValidatorRuleNumericBetween.h */,
-				4F83B1EB1BFB13AE00784298 /* TMValidatorRuleNumericBetween.m */,
-				4F83B1EC1BFB13AE00784298 /* TMValidatorRuleEmail.h */,
-				4F83B1ED1BFB13AE00784298 /* TMValidatorRuleEmail.m */,
-				4F83B1EE1BFB13AE00784298 /* TMValidateTextField.h */,
-				4F83B1EF1BFB13AE00784298 /* TMValidateTextField.m */,
-				4F83B1F01BFB13AE00784298 /* TMValidateTextView.h */,
-				4F83B1F11BFB13AE00784298 /* TMValidateTextView.m */,
+				4F2638F41BFB36C600BCB7F5 /* TMValidatorError.strings */,
+				4F2638F71BFB36C600BCB7F5 /* TMValidateTextField.h */,
+				4F2638F81BFB36C600BCB7F5 /* TMValidateTextField.m */,
+				4F2638F91BFB36C600BCB7F5 /* TMValidateTextView.h */,
+				4F2638FA1BFB36C600BCB7F5 /* TMValidateTextView.m */,
+				4F2638FB1BFB36C600BCB7F5 /* TMValidator.h */,
+				4F2638FC1BFB36C600BCB7F5 /* TMValidator.m */,
+				4F2638FD1BFB36C600BCB7F5 /* TMValidatorCommon.h */,
+				4F2638FE1BFB36C600BCB7F5 /* TMValidatorField.h */,
+				4F2638FF1BFB36C600BCB7F5 /* TMValidatorField.m */,
+				4F2639001BFB36C600BCB7F5 /* TMValidatorRule.h */,
+				4F2639011BFB36C600BCB7F5 /* TMValidatorRule.m */,
+				4F2639021BFB36C600BCB7F5 /* TMValidatorRuleEmail.h */,
+				4F2639031BFB36C600BCB7F5 /* TMValidatorRuleEmail.m */,
+				4F2639041BFB36C600BCB7F5 /* TMValidatorRuleExactLength.h */,
+				4F2639051BFB36C600BCB7F5 /* TMValidatorRuleExactLength.m */,
+				4F2639061BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.h */,
+				4F2639071BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.m */,
+				4F2639081BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.h */,
+				4F2639091BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.m */,
+				4F26390A1BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.h */,
+				4F26390B1BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.m */,
+				4F26390C1BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.h */,
+				4F26390D1BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.m */,
+				4F26390E1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.h */,
+				4F26390F1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.m */,
+				4F2639101BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.h */,
+				4F2639111BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.m */,
+				4F2639121BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.h */,
+				4F2639131BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.m */,
+				4F2639141BFB36C600BCB7F5 /* TMValidatorRuleMinLength.h */,
+				4F2639151BFB36C600BCB7F5 /* TMValidatorRuleMinLength.m */,
+				4F2639161BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.h */,
+				4F2639171BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.m */,
+				4F2639181BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.h */,
+				4F2639191BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.m */,
+				4F26391A1BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.h */,
+				4F26391B1BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.m */,
+				4F26391C1BFB36C600BCB7F5 /* TMValidatorRuleRequired.h */,
+				4F26391D1BFB36C600BCB7F5 /* TMValidatorRuleRequired.m */,
 			);
-			name = TMValidator;
-			path = ../../../TMValidator/TMValidator/TMValidator;
+			path = TMValidator;
 			sourceTree = "<group>";
 		};
 		FE7A437C0E8D6D8AAA676734 /* Frameworks */ = {
@@ -377,6 +376,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 4F1346DB1BF5C80C00688FF4;
 			productRefGroup = 4F1346E51BF5C80C00688FF4 /* Products */;
@@ -396,7 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1346FA1BF5C80C00688FF4 /* LaunchScreen.storyboard in Resources */,
-				4F83B1F31BFB13AE00784298 /* TMValidatorError.strings in Resources */,
+				4F26391E1BFB36C600BCB7F5 /* TMValidatorError.strings in Resources */,
 				4F1346F71BF5C80C00688FF4 /* Assets.xcassets in Resources */,
 				4F1346F21BF5C80C00688FF4 /* Main.storyboard in Resources */,
 			);
@@ -471,31 +471,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F83B2031BFB13AE00784298 /* TMValidatorRuleNumericBetween.m in Sources */,
-				4F83B1FA1BFB13AE00784298 /* TMValidatorRuleMaxLength.m in Sources */,
-				4F83B1FC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m in Sources */,
-				4F83B2021BFB13AE00784298 /* TMValidatorRuleNumericMax.m in Sources */,
-				4F83B2051BFB13AE00784298 /* TMValidateTextField.m in Sources */,
-				4F83B2011BFB13AE00784298 /* TMValidatorRuleNumericMin.m in Sources */,
-				4F83B1F91BFB13AE00784298 /* TMValidatorRuleMinLength.m in Sources */,
-				4F83B2001BFB13AE00784298 /* TMValidatorRuleMatchValue.m in Sources */,
-				4F83B1FF1BFB13AE00784298 /* TMValidatorRuleMatchPattern.m in Sources */,
+				4F26392C1BFB36C600BCB7F5 /* TMValidatorRuleMaxLength.m in Sources */,
+				4F2639311BFB36C600BCB7F5 /* TMValidatorRuleRequired.m in Sources */,
+				4F2639291BFB36C600BCB7F5 /* TMValidatorRuleIsNumeric.m in Sources */,
 				4F1346EF1BF5C80C00688FF4 /* ViewController.m in Sources */,
-				4F83B1FB1BFB13AE00784298 /* TMValidatorRuleExactLength.m in Sources */,
+				4F26392A1BFB36C600BCB7F5 /* TMValidatorRuleMatchPattern.m in Sources */,
+				4F2639261BFB36C600BCB7F5 /* TMValidatorRuleIsAlnum.m in Sources */,
 				4F1346EC1BF5C80C00688FF4 /* AppDelegate.m in Sources */,
+				4F2639231BFB36C600BCB7F5 /* TMValidatorRule.m in Sources */,
+				4F2639251BFB36C600BCB7F5 /* TMValidatorRuleExactLength.m in Sources */,
+				4F2639211BFB36C600BCB7F5 /* TMValidator.m in Sources */,
+				4F2639241BFB36C600BCB7F5 /* TMValidatorRuleEmail.m in Sources */,
+				4F2639271BFB36C600BCB7F5 /* TMValidatorRuleIsAlphabet.m in Sources */,
+				4F26392D1BFB36C600BCB7F5 /* TMValidatorRuleMinLength.m in Sources */,
+				4F2639301BFB36C600BCB7F5 /* TMValidatorRuleNumericMin.m in Sources */,
+				4F2639201BFB36C600BCB7F5 /* TMValidateTextView.m in Sources */,
 				4F83B2091BFB179800784298 /* UIAlertController+blocks.m in Sources */,
-				4F83B1F71BFB13AE00784298 /* TMValidatorRuleIsEmpty.m in Sources */,
-				4F83B1FD1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m in Sources */,
+				4F26392E1BFB36C600BCB7F5 /* TMValidatorRuleNumericBetween.m in Sources */,
 				4F1346E91BF5C80C00688FF4 /* main.m in Sources */,
-				4F83B1F61BFB13AE00784298 /* TMValidatorRule.m in Sources */,
-				4F83B1F51BFB13AE00784298 /* TMValidatorField.m in Sources */,
-				4F83B2041BFB13AE00784298 /* TMValidatorRuleEmail.m in Sources */,
-				4F83B2061BFB13AE00784298 /* TMValidateTextView.m in Sources */,
-				4F83B1FE1BFB13AE00784298 /* TMValidatorRuleIsAlnum.m in Sources */,
-				4F83B1F81BFB13AE00784298 /* TMValidatorRuleRequired.m in Sources */,
 				4F1346F51BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld in Sources */,
 				4F83B1C11BFB032400784298 /* HomeViewController.m in Sources */,
-				4F83B1F41BFB13AE00784298 /* TMValidator.m in Sources */,
+				4F2639281BFB36C600BCB7F5 /* TMValidatorRuleIsEmpty.m in Sources */,
+				4F2639221BFB36C600BCB7F5 /* TMValidatorField.m in Sources */,
+				4F26392B1BFB36C600BCB7F5 /* TMValidatorRuleMatchValue.m in Sources */,
+				4F26392F1BFB36C600BCB7F5 /* TMValidatorRuleNumericMax.m in Sources */,
+				4F26391F1BFB36C600BCB7F5 /* TMValidateTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,11 +547,11 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4F83B1CA1BFB13AE00784298 /* TMValidatorError.strings */ = {
+		4F2638F41BFB36C600BCB7F5 /* TMValidatorError.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F83B1C81BFB13AE00784298 /* en */,
-				4F83B1C91BFB13AE00784298 /* ja */,
+				4F2638F51BFB36C600BCB7F5 /* en */,
+				4F2638F61BFB36C600BCB7F5 /* ja */,
 			);
 			name = TMValidatorError.strings;
 			sourceTree = "<group>";
