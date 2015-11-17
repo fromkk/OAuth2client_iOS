@@ -17,6 +17,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    //NXOAuth2Account initial setting
+    [[NXOAuth2AccountStore sharedStore] setClientID:OAuth_Client_ID secret:OAuth_Client_Secret authorizationURL:[NSURL URLWithString:[OAuth_URL stringByAppendingString:OAuth_Authorization_URL]] tokenURL:[NSURL URLWithString:[OAuth_URL stringByAppendingString:OAuth_Token_URL]] redirectURL:[NSURL URLWithString:OAuth_Redirect_URL] forAccountType:@"famm"];
+    
+    NSString *identifier = [[NSUserDefaults standardUserDefaults] objectForKey:@"NXOAuth2AccountIdentifier"];
+    NXOAuth2Account *account = nil != identifier ? [[NXOAuth2AccountStore sharedStore] accountWithIdentifier:identifier] : nil;
+    
+    UIViewController *viewController;
+    if (nil != account)
+    {
+        //Logined
+        viewController = [[HomeViewController alloc] init];
+    } else
+    {
+        //Login view
+        viewController = [[ViewController alloc] init];
+    }
+
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window.rootViewController = self.navigationController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

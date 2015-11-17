@@ -16,6 +16,29 @@
 		4F1346FA1BF5C80C00688FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */; };
 		4F1347051BF5C80D00688FF4 /* Oauth2demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1347041BF5C80D00688FF4 /* Oauth2demoTests.m */; };
 		4F1347101BF5C80D00688FF4 /* Oauth2demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */; };
+		4F83B1C11BFB032400784298 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1C01BFB032400784298 /* HomeViewController.m */; };
+		4F83B1F31BFB13AE00784298 /* TMValidatorError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F83B1CA1BFB13AE00784298 /* TMValidatorError.strings */; };
+		4F83B1F41BFB13AE00784298 /* TMValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1CD1BFB13AE00784298 /* TMValidator.m */; };
+		4F83B1F51BFB13AE00784298 /* TMValidatorField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1CF1BFB13AE00784298 /* TMValidatorField.m */; };
+		4F83B1F61BFB13AE00784298 /* TMValidatorRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D11BFB13AE00784298 /* TMValidatorRule.m */; };
+		4F83B1F71BFB13AE00784298 /* TMValidatorRuleIsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D31BFB13AE00784298 /* TMValidatorRuleIsEmpty.m */; };
+		4F83B1F81BFB13AE00784298 /* TMValidatorRuleRequired.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D51BFB13AE00784298 /* TMValidatorRuleRequired.m */; };
+		4F83B1F91BFB13AE00784298 /* TMValidatorRuleMinLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D71BFB13AE00784298 /* TMValidatorRuleMinLength.m */; };
+		4F83B1FA1BFB13AE00784298 /* TMValidatorRuleMaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1D91BFB13AE00784298 /* TMValidatorRuleMaxLength.m */; };
+		4F83B1FB1BFB13AE00784298 /* TMValidatorRuleExactLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1DB1BFB13AE00784298 /* TMValidatorRuleExactLength.m */; };
+		4F83B1FC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1DD1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m */; };
+		4F83B1FD1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1DF1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m */; };
+		4F83B1FE1BFB13AE00784298 /* TMValidatorRuleIsAlnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E11BFB13AE00784298 /* TMValidatorRuleIsAlnum.m */; };
+		4F83B1FF1BFB13AE00784298 /* TMValidatorRuleMatchPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E31BFB13AE00784298 /* TMValidatorRuleMatchPattern.m */; };
+		4F83B2001BFB13AE00784298 /* TMValidatorRuleMatchValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E51BFB13AE00784298 /* TMValidatorRuleMatchValue.m */; };
+		4F83B2011BFB13AE00784298 /* TMValidatorRuleNumericMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E71BFB13AE00784298 /* TMValidatorRuleNumericMin.m */; };
+		4F83B2021BFB13AE00784298 /* TMValidatorRuleNumericMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1E91BFB13AE00784298 /* TMValidatorRuleNumericMax.m */; };
+		4F83B2031BFB13AE00784298 /* TMValidatorRuleNumericBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1EB1BFB13AE00784298 /* TMValidatorRuleNumericBetween.m */; };
+		4F83B2041BFB13AE00784298 /* TMValidatorRuleEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1ED1BFB13AE00784298 /* TMValidatorRuleEmail.m */; };
+		4F83B2051BFB13AE00784298 /* TMValidateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1EF1BFB13AE00784298 /* TMValidateTextField.m */; };
+		4F83B2061BFB13AE00784298 /* TMValidateTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1F11BFB13AE00784298 /* TMValidateTextView.m */; };
+		4F83B2091BFB179800784298 /* UIAlertController+blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B2081BFB179800784298 /* UIAlertController+blocks.m */; };
+		6F1D347670D6A5E83CB3C1F6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E25900321CDE31EBE92E24 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +76,55 @@
 		4F13470B1BF5C80D00688FF4 /* Oauth2demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oauth2demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F13470F1BF5C80D00688FF4 /* Oauth2demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oauth2demoUITests.m; sourceTree = "<group>"; };
 		4F1347111BF5C80D00688FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F83B1BF1BFB032400784298 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4F83B1C01BFB032400784298 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4F83B1C81BFB13AE00784298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TMValidatorError.strings; sourceTree = "<group>"; };
+		4F83B1C91BFB13AE00784298 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TMValidatorError.strings; sourceTree = "<group>"; };
+		4F83B1CB1BFB13AE00784298 /* TMValidatorCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorCommon.h; sourceTree = "<group>"; };
+		4F83B1CC1BFB13AE00784298 /* TMValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidator.h; sourceTree = "<group>"; };
+		4F83B1CD1BFB13AE00784298 /* TMValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidator.m; sourceTree = "<group>"; };
+		4F83B1CE1BFB13AE00784298 /* TMValidatorField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorField.h; sourceTree = "<group>"; };
+		4F83B1CF1BFB13AE00784298 /* TMValidatorField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorField.m; sourceTree = "<group>"; };
+		4F83B1D01BFB13AE00784298 /* TMValidatorRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRule.h; sourceTree = "<group>"; };
+		4F83B1D11BFB13AE00784298 /* TMValidatorRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRule.m; sourceTree = "<group>"; };
+		4F83B1D21BFB13AE00784298 /* TMValidatorRuleIsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsEmpty.h; sourceTree = "<group>"; };
+		4F83B1D31BFB13AE00784298 /* TMValidatorRuleIsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsEmpty.m; sourceTree = "<group>"; };
+		4F83B1D41BFB13AE00784298 /* TMValidatorRuleRequired.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleRequired.h; sourceTree = "<group>"; };
+		4F83B1D51BFB13AE00784298 /* TMValidatorRuleRequired.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleRequired.m; sourceTree = "<group>"; };
+		4F83B1D61BFB13AE00784298 /* TMValidatorRuleMinLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMinLength.h; sourceTree = "<group>"; };
+		4F83B1D71BFB13AE00784298 /* TMValidatorRuleMinLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMinLength.m; sourceTree = "<group>"; };
+		4F83B1D81BFB13AE00784298 /* TMValidatorRuleMaxLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMaxLength.h; sourceTree = "<group>"; };
+		4F83B1D91BFB13AE00784298 /* TMValidatorRuleMaxLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMaxLength.m; sourceTree = "<group>"; };
+		4F83B1DA1BFB13AE00784298 /* TMValidatorRuleExactLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleExactLength.h; sourceTree = "<group>"; };
+		4F83B1DB1BFB13AE00784298 /* TMValidatorRuleExactLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleExactLength.m; sourceTree = "<group>"; };
+		4F83B1DC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsNumeric.h; sourceTree = "<group>"; };
+		4F83B1DD1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsNumeric.m; sourceTree = "<group>"; };
+		4F83B1DE1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsAlphabet.h; sourceTree = "<group>"; };
+		4F83B1DF1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsAlphabet.m; sourceTree = "<group>"; };
+		4F83B1E01BFB13AE00784298 /* TMValidatorRuleIsAlnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleIsAlnum.h; sourceTree = "<group>"; };
+		4F83B1E11BFB13AE00784298 /* TMValidatorRuleIsAlnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleIsAlnum.m; sourceTree = "<group>"; };
+		4F83B1E21BFB13AE00784298 /* TMValidatorRuleMatchPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMatchPattern.h; sourceTree = "<group>"; };
+		4F83B1E31BFB13AE00784298 /* TMValidatorRuleMatchPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMatchPattern.m; sourceTree = "<group>"; };
+		4F83B1E41BFB13AE00784298 /* TMValidatorRuleMatchValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleMatchValue.h; sourceTree = "<group>"; };
+		4F83B1E51BFB13AE00784298 /* TMValidatorRuleMatchValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleMatchValue.m; sourceTree = "<group>"; };
+		4F83B1E61BFB13AE00784298 /* TMValidatorRuleNumericMin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericMin.h; sourceTree = "<group>"; };
+		4F83B1E71BFB13AE00784298 /* TMValidatorRuleNumericMin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericMin.m; sourceTree = "<group>"; };
+		4F83B1E81BFB13AE00784298 /* TMValidatorRuleNumericMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericMax.h; sourceTree = "<group>"; };
+		4F83B1E91BFB13AE00784298 /* TMValidatorRuleNumericMax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericMax.m; sourceTree = "<group>"; };
+		4F83B1EA1BFB13AE00784298 /* TMValidatorRuleNumericBetween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleNumericBetween.h; sourceTree = "<group>"; };
+		4F83B1EB1BFB13AE00784298 /* TMValidatorRuleNumericBetween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleNumericBetween.m; sourceTree = "<group>"; };
+		4F83B1EC1BFB13AE00784298 /* TMValidatorRuleEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidatorRuleEmail.h; sourceTree = "<group>"; };
+		4F83B1ED1BFB13AE00784298 /* TMValidatorRuleEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidatorRuleEmail.m; sourceTree = "<group>"; };
+		4F83B1EE1BFB13AE00784298 /* TMValidateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidateTextField.h; sourceTree = "<group>"; };
+		4F83B1EF1BFB13AE00784298 /* TMValidateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidateTextField.m; sourceTree = "<group>"; };
+		4F83B1F01BFB13AE00784298 /* TMValidateTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMValidateTextView.h; sourceTree = "<group>"; };
+		4F83B1F11BFB13AE00784298 /* TMValidateTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMValidateTextView.m; sourceTree = "<group>"; };
+		4F83B2071BFB179800784298 /* UIAlertController+blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+blocks.h"; sourceTree = "<group>"; };
+		4F83B2081BFB179800784298 /* UIAlertController+blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+blocks.m"; sourceTree = "<group>"; };
+		4FA8A3BA1BF5C9B700133631 /* OAauth_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAauth_config.h; sourceTree = "<group>"; };
+		BBAA8B9AD4A69CA229BDD74F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E7E25900321CDE31EBE92E24 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4394E82D2606C0DE1B56FAA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1D347670D6A5E83CB3C1F6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CF8A3747044FF25CE28F619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4394E82D2606C0DE1B56FAA /* Pods.debug.xcconfig */,
+				BBAA8B9AD4A69CA229BDD74F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4F1346DB1BF5C80C00688FF4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +169,8 @@
 				4F1347031BF5C80D00688FF4 /* Oauth2demoTests */,
 				4F13470E1BF5C80D00688FF4 /* Oauth2demoUITests */,
 				4F1346E51BF5C80C00688FF4 /* Products */,
+				0CF8A3747044FF25CE28F619 /* Pods */,
+				FE7A437C0E8D6D8AAA676734 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,12 +191,18 @@
 				4F1346EB1BF5C80C00688FF4 /* AppDelegate.m */,
 				4F1346ED1BF5C80C00688FF4 /* ViewController.h */,
 				4F1346EE1BF5C80C00688FF4 /* ViewController.m */,
+				4F83B1BF1BFB032400784298 /* HomeViewController.h */,
+				4F83B1C01BFB032400784298 /* HomeViewController.m */,
 				4F1346F01BF5C80C00688FF4 /* Main.storyboard */,
 				4F1346F61BF5C80C00688FF4 /* Assets.xcassets */,
 				4F1346F81BF5C80C00688FF4 /* LaunchScreen.storyboard */,
 				4F1346FB1BF5C80C00688FF4 /* Info.plist */,
 				4F1346F31BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld */,
+				4F83B1F21BFB13AE00784298 /* TMValidator */,
 				4F1346E71BF5C80C00688FF4 /* Supporting Files */,
+				4FA8A3BA1BF5C9B700133631 /* OAauth_config.h */,
+				4F83B2071BFB179800784298 /* UIAlertController+blocks.h */,
+				4F83B2081BFB179800784298 /* UIAlertController+blocks.m */,
 			);
 			path = Oauth2demo;
 			sourceTree = "<group>";
@@ -143,6 +233,62 @@
 			path = Oauth2demoUITests;
 			sourceTree = "<group>";
 		};
+		4F83B1F21BFB13AE00784298 /* TMValidator */ = {
+			isa = PBXGroup;
+			children = (
+				4F83B1CA1BFB13AE00784298 /* TMValidatorError.strings */,
+				4F83B1CB1BFB13AE00784298 /* TMValidatorCommon.h */,
+				4F83B1CC1BFB13AE00784298 /* TMValidator.h */,
+				4F83B1CD1BFB13AE00784298 /* TMValidator.m */,
+				4F83B1CE1BFB13AE00784298 /* TMValidatorField.h */,
+				4F83B1CF1BFB13AE00784298 /* TMValidatorField.m */,
+				4F83B1D01BFB13AE00784298 /* TMValidatorRule.h */,
+				4F83B1D11BFB13AE00784298 /* TMValidatorRule.m */,
+				4F83B1D21BFB13AE00784298 /* TMValidatorRuleIsEmpty.h */,
+				4F83B1D31BFB13AE00784298 /* TMValidatorRuleIsEmpty.m */,
+				4F83B1D41BFB13AE00784298 /* TMValidatorRuleRequired.h */,
+				4F83B1D51BFB13AE00784298 /* TMValidatorRuleRequired.m */,
+				4F83B1D61BFB13AE00784298 /* TMValidatorRuleMinLength.h */,
+				4F83B1D71BFB13AE00784298 /* TMValidatorRuleMinLength.m */,
+				4F83B1D81BFB13AE00784298 /* TMValidatorRuleMaxLength.h */,
+				4F83B1D91BFB13AE00784298 /* TMValidatorRuleMaxLength.m */,
+				4F83B1DA1BFB13AE00784298 /* TMValidatorRuleExactLength.h */,
+				4F83B1DB1BFB13AE00784298 /* TMValidatorRuleExactLength.m */,
+				4F83B1DC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.h */,
+				4F83B1DD1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m */,
+				4F83B1DE1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.h */,
+				4F83B1DF1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m */,
+				4F83B1E01BFB13AE00784298 /* TMValidatorRuleIsAlnum.h */,
+				4F83B1E11BFB13AE00784298 /* TMValidatorRuleIsAlnum.m */,
+				4F83B1E21BFB13AE00784298 /* TMValidatorRuleMatchPattern.h */,
+				4F83B1E31BFB13AE00784298 /* TMValidatorRuleMatchPattern.m */,
+				4F83B1E41BFB13AE00784298 /* TMValidatorRuleMatchValue.h */,
+				4F83B1E51BFB13AE00784298 /* TMValidatorRuleMatchValue.m */,
+				4F83B1E61BFB13AE00784298 /* TMValidatorRuleNumericMin.h */,
+				4F83B1E71BFB13AE00784298 /* TMValidatorRuleNumericMin.m */,
+				4F83B1E81BFB13AE00784298 /* TMValidatorRuleNumericMax.h */,
+				4F83B1E91BFB13AE00784298 /* TMValidatorRuleNumericMax.m */,
+				4F83B1EA1BFB13AE00784298 /* TMValidatorRuleNumericBetween.h */,
+				4F83B1EB1BFB13AE00784298 /* TMValidatorRuleNumericBetween.m */,
+				4F83B1EC1BFB13AE00784298 /* TMValidatorRuleEmail.h */,
+				4F83B1ED1BFB13AE00784298 /* TMValidatorRuleEmail.m */,
+				4F83B1EE1BFB13AE00784298 /* TMValidateTextField.h */,
+				4F83B1EF1BFB13AE00784298 /* TMValidateTextField.m */,
+				4F83B1F01BFB13AE00784298 /* TMValidateTextView.h */,
+				4F83B1F11BFB13AE00784298 /* TMValidateTextView.m */,
+			);
+			name = TMValidator;
+			path = ../../../TMValidator/TMValidator/TMValidator;
+			sourceTree = "<group>";
+		};
+		FE7A437C0E8D6D8AAA676734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E25900321CDE31EBE92E24 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1347141BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demo" */;
 			buildPhases = (
+				20852186C66CD04E7AEF7699 /* Check Pods Manifest.lock */,
 				4F1346E01BF5C80C00688FF4 /* Sources */,
 				4F1346E11BF5C80C00688FF4 /* Frameworks */,
 				4F1346E21BF5C80C00688FF4 /* Resources */,
+				4D13179C5DBB3D7AE734E53D /* Embed Pods Frameworks */,
+				9393672BD77604AB41DC5CB8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1346FA1BF5C80C00688FF4 /* LaunchScreen.storyboard in Resources */,
+				4F83B1F31BFB13AE00784298 /* TMValidatorError.strings in Resources */,
 				4F1346F71BF5C80C00688FF4 /* Assets.xcassets in Resources */,
 				4F1346F21BF5C80C00688FF4 /* Main.storyboard in Resources */,
 			);
@@ -268,15 +418,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20852186C66CD04E7AEF7699 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D13179C5DBB3D7AE734E53D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9393672BD77604AB41DC5CB8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F1346E01BF5C80C00688FF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F83B2031BFB13AE00784298 /* TMValidatorRuleNumericBetween.m in Sources */,
+				4F83B1FA1BFB13AE00784298 /* TMValidatorRuleMaxLength.m in Sources */,
+				4F83B1FC1BFB13AE00784298 /* TMValidatorRuleIsNumeric.m in Sources */,
+				4F83B2021BFB13AE00784298 /* TMValidatorRuleNumericMax.m in Sources */,
+				4F83B2051BFB13AE00784298 /* TMValidateTextField.m in Sources */,
+				4F83B2011BFB13AE00784298 /* TMValidatorRuleNumericMin.m in Sources */,
+				4F83B1F91BFB13AE00784298 /* TMValidatorRuleMinLength.m in Sources */,
+				4F83B2001BFB13AE00784298 /* TMValidatorRuleMatchValue.m in Sources */,
+				4F83B1FF1BFB13AE00784298 /* TMValidatorRuleMatchPattern.m in Sources */,
 				4F1346EF1BF5C80C00688FF4 /* ViewController.m in Sources */,
+				4F83B1FB1BFB13AE00784298 /* TMValidatorRuleExactLength.m in Sources */,
 				4F1346EC1BF5C80C00688FF4 /* AppDelegate.m in Sources */,
+				4F83B2091BFB179800784298 /* UIAlertController+blocks.m in Sources */,
+				4F83B1F71BFB13AE00784298 /* TMValidatorRuleIsEmpty.m in Sources */,
+				4F83B1FD1BFB13AE00784298 /* TMValidatorRuleIsAlphabet.m in Sources */,
 				4F1346E91BF5C80C00688FF4 /* main.m in Sources */,
+				4F83B1F61BFB13AE00784298 /* TMValidatorRule.m in Sources */,
+				4F83B1F51BFB13AE00784298 /* TMValidatorField.m in Sources */,
+				4F83B2041BFB13AE00784298 /* TMValidatorRuleEmail.m in Sources */,
+				4F83B2061BFB13AE00784298 /* TMValidateTextView.m in Sources */,
+				4F83B1FE1BFB13AE00784298 /* TMValidatorRuleIsAlnum.m in Sources */,
+				4F83B1F81BFB13AE00784298 /* TMValidatorRuleRequired.m in Sources */,
 				4F1346F51BF5C80C00688FF4 /* Oauth2demo.xcdatamodeld in Sources */,
+				4F83B1C11BFB032400784298 /* HomeViewController.m in Sources */,
+				4F83B1F41BFB13AE00784298 /* TMValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +545,15 @@
 				4F1346F91BF5C80C00688FF4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F83B1CA1BFB13AE00784298 /* TMValidatorError.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F83B1C81BFB13AE00784298 /* en */,
+				4F83B1C91BFB13AE00784298 /* ja */,
+			);
+			name = TMValidatorError.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,6 +643,7 @@
 		};
 		4F1347151BF5C80D00688FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4394E82D2606C0DE1B56FAA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oauth2demo/Info.plist;
@@ -426,6 +655,7 @@
 		};
 		4F1347161BF5C80D00688FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAA8B9AD4A69CA229BDD74F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oauth2demo/Info.plist;
@@ -502,6 +732,7 @@
 				4F1347161BF5C80D00688FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1347171BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +741,7 @@
 				4F1347191BF5C80D00688FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F13471A1BF5C80D00688FF4 /* Build configuration list for PBXNativeTarget "Oauth2demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +750,7 @@
 				4F13471C1BF5C80D00688FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

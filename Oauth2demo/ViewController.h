@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NXOAuth2.h"
+#import "OAauth_config.h"
+#import "TMValidateTextField.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <NXOAuth2ClientDelegate, UITextFieldDelegate>
 
+@property (nonatomic) TMValidateTextField *emailTextField;
+@property (nonatomic) TMValidateTextField *passwordTextField;
+@property (nonatomic) UIButton *loginButton;
+@property (nonatomic) UIButton *skipButton;
 
 @end
 
